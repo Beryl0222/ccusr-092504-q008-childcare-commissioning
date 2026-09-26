@@ -19,19 +19,41 @@
     "event_type": {
       "type": "string",
       "enum": [
+        "PROJECT_FUNDED",
         "MILESTONE_ACCEPTED",
+        "ROOM_REGISTERED",
+        "REMEDIATION_OPENED",
+        "REMEDIATION_CLOSED",
         "REQUIREMENT_VERIFIED",
+        "STAFF_QUALIFIED",
+        "SHIFT_ASSIGNED",
+        "REGULATION_SIGNED",
+        "MEDICAL_AGREEMENT_SIGNED",
         "CAPACITY_DECLARED",
+        "OWNER_ACKNOWLEDGED",
+        "DEMAND_RECORDED",
+        "MATERIAL_DEDUPED",
+        "RELEASE_APPROVED",
         "SERVICE_RELEASED",
-        "REMEDIATION_OPENED"
+        "TRIAL_RUN_OPENED",
+        "DEADLINE_EXTENDED",
+        "EXEMPTION_GRANTED",
+        "REVIEW_RESUMED",
+        "REMINDER_RAISED"
       ]
     },
     "aggregate_type": {
       "type": "string",
       "enum": [
         "construction_project",
+        "facility_room",
         "service_unit",
         "compliance_requirement",
+        "staff_member",
+        "operating_regulation",
+        "medical_agreement",
+        "demand_intake",
+        "material_registry",
         "operating_release"
       ]
     },

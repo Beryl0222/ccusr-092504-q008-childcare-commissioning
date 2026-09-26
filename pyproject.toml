@@ -1,7 +1,7 @@
 [project]
 name = "childcare-commissioning"
-version = "0.1.0"
-description = "托育中心投运协同台领域契约"
+version = "0.2.0"
+description = "托育中心投运协同台：建设投运连续档案、放行门、局部冻结与协同监管"
 requires-python = ">=3.11"
 
 [tool.unittest]
