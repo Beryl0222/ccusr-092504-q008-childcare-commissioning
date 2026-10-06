@@ -19,11 +19,17 @@
     "event_type": {
       "type": "string",
       "enum": [
+        "PROJECT_REGISTERED",
         "MILESTONE_ACCEPTED",
+        "FUNDING_NODE_CONFIRMED",
         "REQUIREMENT_VERIFIED",
         "CAPACITY_DECLARED",
+        "MATERIAL_RECEIVED",
+        "REMEDIATION_OPENED",
+        "REMEDIATION_CLOSED",
+        "DEADLINE_ADJUSTED",
         "SERVICE_RELEASED",
-        "REMEDIATION_OPENED"
+        "ENROLLMENT_CONFIRMED"
       ]
     },
     "aggregate_type": {
@@ -32,7 +38,8 @@
         "construction_project",
         "service_unit",
         "compliance_requirement",
-        "operating_release"
+        "operating_release",
+        "remediation"
       ]
     },
     "aggregate_id": {
